@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  color: white;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -344,5 +345,44 @@ template {
    */
 [hidden] {
   display: none;
+}
+
+.btn-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-nav img {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+nav {
+  width: 10vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #0C0526;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .btn-nav:last-of-type {
+  margin-top: auto;
+}
+
+.content {
+  width: 90vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
